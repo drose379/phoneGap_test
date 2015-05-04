@@ -13,12 +13,14 @@
     <body>
         <div class="app">
             <h1>PhoneGap</h1>
-            <h3>Testing</h3>
+            <button id="testButton">Click Me</button>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
+            var button = document.getElementById("testButton");
+            button.addEventListener("click",app.buttonClicked);
         </script>
     </body>
 </html>
