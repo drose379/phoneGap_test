@@ -20,7 +20,7 @@ body {
 
 /* Portrait layout (default) */
 .app {
-
+    background-color: #D3D3D3;
 }
 
 /* Landscape layout (with min-width) */
@@ -42,10 +42,15 @@ h1 {
     text-align:center;
 }
 
+.test {
+    background-color: #ADD8E6;
+    margin-bottom: 5vh;
+}
+
 #testButton {
     margin: 0 auto;
-    width:80vw;
     display: block;
+    font-size: 20px;
 }
 
 
