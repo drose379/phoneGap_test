@@ -42,10 +42,17 @@ h1 {
     text-align:center;
 }
 
-.test {
+.navBar {
     background-color: #ADD8E6;
-    padding:5vh;
+    padding:3vh;
     margin-bottom: 5vh;
+}
+
+.leftNav {
+
+}
+.rightNav {
+    
 }
 
 #testButton {
