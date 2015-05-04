@@ -30,6 +30,19 @@
             app.initialize();
             var button = document.getElementById("testButton");
             button.addEventListener("click",app.buttonClicked);
+
+            function buttonClicked() {
+                navigator.camera.getPicture(success,fail,{quality:50,destinationType:Camera.DestinationType.DATA_URL});
+            }
+
+            function success() {
+
+            }
+
+            function fail() {
+                
+            }
+
         </script>
     </body>
 </html>
