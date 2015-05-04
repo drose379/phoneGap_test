@@ -42,6 +42,13 @@ h1 {
     text-align:center;
 }
 
+#testButton {
+    margin: 0 auto;
+    width:80vw;
+    display: block;
+}
+
+
 
 @keyframes fade {
     from { opacity: 1.0; }
